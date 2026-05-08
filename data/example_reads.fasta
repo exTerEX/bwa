@@ -1,0 +1,6 @@
+>read_exact
+GATTACA
+>read_mismatch
+GACTACA
+>read_indel
+GATACA
