@@ -111,8 +111,8 @@ Force seed-and-extend mode:
 The align command prints one metadata line and one line per read:
 
 ```text
-command=align reads=3 reference_bases=14 max_edits=1 max_hits=10 search_mode=auto seed_candidates=4096
-read=read_exact len=7 hits=2 best_edits=0 matches=0:0,7:0
+command=align reads=3 reference_bases=210 max_edits=1 max_hits=10 search_mode=auto seed_candidates=4096
+read=read_exact len=32 hits=3 best_edits=0 matches=48:0,47:1,49:1
 ```
 
 For exact mode (`--max-edits 0`), output uses `positions=`; for inexact mode it uses `matches=position:edits`.
